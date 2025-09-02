@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  height: 100vh;
+  background: url('img/industrial-designers-working-3d-model.jpg') no-repeat center center/cover;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.project-img {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.project-img:hover {
+  transform: scale(1.05);
+}
